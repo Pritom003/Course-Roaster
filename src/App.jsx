@@ -4,6 +4,10 @@ import './App.css'
 import Card from './COMPONENTS/Card/Card'
 import { useEffect } from 'react'
 import Sidebar from './COMPONENTS/Sidebar/Sidebar'
+import swal from 'sweetalert';
+import Swal from 'sweetalert2'
+
+ 
 
 function App() {
   const [ blogs, setblogs]=useState([])
@@ -25,7 +29,7 @@ const isexist=Select.find(items=>items.id==item.id)
    let Creditcount=item.credit
 
    if(isexist){
-    return alert('the couse is already selected')
+    return swal("You have already selected this course.");
    }else{
   
      
@@ -37,7 +41,12 @@ const isexist=Select.find(items=>items.id==item.id)
     console.log(Creditcount,"hey")
    let Remaining=15-Creditcount
    if(Remaining<0){
-    alert("you have exceeded your credit limit")
+    Swal.fire({
+      icon: 'error',
+      title: 'Oops...',
+      text: 'Sorry, you have used up all your available credits.!',
+      footer: '<a href="">Would you like to unlock the paid facilities?</a>'
+    })
    }
    else {
     setremaing(Remaining)
@@ -85,3 +94,4 @@ const isexist=Select.find(items=>items.id==item.id)
 }
 
 export default App
+
