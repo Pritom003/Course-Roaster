@@ -1,0 +1,83 @@
+[
+  {
+    "id": "1",
+    "serial_no": "1001",
+    "cover_image": "https://i.ibb.co/VSdm5kZ/Rectangle-2.png",
+    "course_name": "Introduction to Programming",
+    "credit": 3,
+    "price": 49.99,
+    "course_details": "Learn the fundamentals of programming with this comprehensive course."
+  },
+  {
+    "id": "2",
+    "serial_no": "1002",
+    "cover_image": "https://i.ibb.co/mbF4C4M/Rectangle-2-1.png",
+    "course_name": "Web Development Bootcamp",
+    "credit": 5,
+    "price": 99.99,
+    "course_details": "Become a web developer in just 12 weeks. Covers HTML, CSS, and JavaScript."
+  },
+  {
+    "id": "3",
+    "serial_no": "1003",
+    "cover_image": "https://i.ibb.co/vv2tmpg/Rectangle-2-2.png",
+    "course_name": "Data Science Fundamentals",
+    "credit": 4,
+    "price": 79.99,
+    "course_details": "Discover the world of data science and machine learning in this introductory course."
+  },
+  {
+    "id": "4",
+    "serial_no": "1004",
+    "cover_image": "https://i.ibb.co/Tqdnz96/Rectangle-2-3.png",
+    "course_name": "Graphic Design Mastery",
+    "credit": 3,
+    "price": 69.99,
+    "course_details": "Master the art of graphic design and create stunning visuals."
+  },
+  {
+    "id": "5",
+    "serial_no": "1005",
+    "cover_image": "https://i.ibb.co/FWDGM2J/Rectangle-2-4.png",
+    "course_name": "Business Ethics",
+    "credit": 2,
+    "price": 29.99,
+    "course_details": "Explore ethical issues in business and make responsible decisions."
+  },
+  {
+    "id": "6",
+    "serial_no": "1006",
+    "cover_image": "https://i.ibb.co/7N1g6wH/Rectangle-2-5.png",
+    "course_name": "Digital Marketing Strategies",
+    "credit": 3,
+    "price": 59.99,
+    "course_details": "Learn effective digital marketing strategies to boost your online presence."
+  },
+  {
+    "id": "7",
+    "serial_no": "1007",
+    "cover_image": "https://example.com/course7.jpg",
+    "course_name": "Advanced Physics",
+    "credit": 4,
+    "price": 89.99,
+    "course_details": "Dive deep into advanced physics concepts and theories."
+  },
+  {
+    "id": "8",
+    "serial_no": "1008",
+    "cover_image": "https://i.ibb.co/mvVQy2R/Rectangle-3.png",
+    "course_name": "Psychology of Happiness",
+    "credit": 2,
+    "price": 39.99,
+    "course_details": "Explore the science of happiness and well-being in this psychology course."
+  },
+  {
+    "id": "9",
+    "serial_no": "1009",
+    "cover_image": "https://i.ibb.co/86DhK5D/Rectangle-3-1.png",
+    "course_name": "Creative Writing Workshop",
+    "credit": 2,
+    "price": 49.99,
+    "course_details": "Unlock your creativity and improve your writing skills with this workshop."
+  }
+]
