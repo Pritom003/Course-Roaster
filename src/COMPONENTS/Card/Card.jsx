@@ -1,5 +1,8 @@
 
 import PropTypes from 'prop-types';
+import { IoLogoUsd} from "react-icons/io";
+import { IoIosBook} from "react-icons/io";
+
 
 const Card = ({blog, handleselection}) => {
   const {cover_image ,price, course_name,course_details,credit}=blog
@@ -42,8 +45,8 @@ const Card = ({blog, handleselection}) => {
     <p>{course_details}</p>
 
     <div className=' flex gap-2'>
-      <p> Price: {price}</p>
-      <p> Credit:{credit}</p>
+    <p className='flex justify-center items-center  align-middle'> <IoLogoUsd></IoLogoUsd> price: {price}</p>
+      <p className='flex justify-center items-center align-middle'> <IoIosBook></IoIosBook>Credit:{credit}</p>
     </div>
 
     <div className="card-actions justify-center w-full">
