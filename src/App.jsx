@@ -8,6 +8,8 @@ import Sidebar from './COMPONENTS/Sidebar/Sidebar'
 function App() {
   const [ blogs, setblogs]=useState([])
   const [ Select,setselected]=useState([])
+  const[totlcount,setcount]=useState(0)
+  const[Remainingtime,setremaing]=useState(20)
   useEffect( ()=>{
 fetch('Blogs.json')
 .then((res)=> res.json())
@@ -18,17 +20,33 @@ fetch('Blogs.json')
 
  const handleselection=(item)=> {
 const isexist=Select.find(items=>items.id==item.id)
-  console.log(item.id ,Select,'hi')
+  // console.log(item.id ,Select,'hi')
    Select.forEach(items=>items.id)
-
+   let Creditcount=item.credit
 
    if(isexist){
     return alert('the couse is already selected')
    }else{
   
-
-  
+     
+    
+ 
   setselected([...Select, item]);
+  Select.find(credits=>{
+    Creditcount=Creditcount+credits.credit})
+    console.log(Creditcount,"hey")
+   let Remaining=15-Creditcount
+   if(Remaining<0){
+    alert("you have exceeded your credit limit")
+   }
+   else {
+    setremaing(Remaining)
+    setcount(Creditcount)
+
+     
+   }
+
+
   
    }
 
@@ -55,7 +73,7 @@ const isexist=Select.find(items=>items.id==item.id)
    }
    </div>
    
-   <Sidebar  select={Select}/>
+   <Sidebar Remainingtime={Remainingtime} totlcount={totlcount} select={Select}/>
   
 
    </div>

@@ -41,15 +41,10 @@ const Card = ({blog, handleselection}) => {
     <h2 className="card-title font-bold">{course_name}</h2>
     <p>{course_details}</p>
 
-    <div className='flex gap-8'>
-
-<button>
- {credit}
- </button> 
-<button>
- {price}
- </button> 
-</div>
+    <div className=' flex gap-2'>
+      <p> Price: {price}</p>
+      <p> Credit:{credit}</p>
+    </div>
 
     <div className="card-actions justify-center w-full">
       <button 

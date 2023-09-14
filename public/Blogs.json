@@ -4,7 +4,7 @@
     "serial_no": "1001",
     "cover_image": "https://i.ibb.co/VSdm5kZ/Rectangle-2.png",
     "course_name": "Introduction to Programming",
-    "credit": 3,
+    "credit": 5,
     "price": 49.99,
     "course_details": "Learn the fundamentals of programming with this comprehensive course."
   },
@@ -22,7 +22,7 @@
     "serial_no": "1003",
     "cover_image": "https://i.ibb.co/vv2tmpg/Rectangle-2-2.png",
     "course_name": "Data Science Fundamentals",
-    "credit": 4,
+    "credit": 9,
     "price": 79.99,
     "course_details": "Discover the world of data science and machine learning in this introductory course."
   },
@@ -31,7 +31,7 @@
     "serial_no": "1004",
     "cover_image": "https://i.ibb.co/Tqdnz96/Rectangle-2-3.png",
     "course_name": "Graphic Design Mastery",
-    "credit": 3,
+    "credit": 8,
     "price": 69.99,
     "course_details": "Master the art of graphic design and create stunning visuals."
   },
@@ -40,7 +40,7 @@
     "serial_no": "1005",
     "cover_image": "https://i.ibb.co/FWDGM2J/Rectangle-2-4.png",
     "course_name": "Business Ethics",
-    "credit": 2,
+    "credit": 6,
     "price": 29.99,
     "course_details": "Explore ethical issues in business and make responsible decisions."
   },
@@ -67,7 +67,7 @@
     "serial_no": "1008",
     "cover_image": "https://i.ibb.co/mvVQy2R/Rectangle-3.png",
     "course_name": "Psychology of Happiness",
-    "credit": 2,
+    "credit": 7,
     "price": 39.99,
     "course_details": "Explore the science of happiness and well-being in this psychology course."
   },
