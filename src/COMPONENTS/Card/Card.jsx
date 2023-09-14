@@ -41,10 +41,10 @@ const Card = ({blog, handleselection}) => {
   <figure><img src={cover_image} alt="COVER PHOTO" /></figure>
   <div>
   <div className="card-body p-2">
-    <h2 className="card-title font-bold">{course_name}</h2>
+    <h2 className="font-semibold md:font-bold">{course_name}</h2>
     <p>{course_details}</p>
 
-    <div className=' flex gap-2'>
+    <div className=' grid grid-cols-1 md:grid-cols-2 gap-2'>
     <p className='flex justify-center items-center  align-middle'> <IoLogoUsd></IoLogoUsd> price: {price}</p>
       <p className='flex justify-center items-center align-middle'> <IoIosBook></IoIosBook>Credit:{credit}</p>
     </div>
