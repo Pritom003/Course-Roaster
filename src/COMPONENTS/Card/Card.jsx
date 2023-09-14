@@ -1,7 +1,7 @@
 
 import PropTypes from 'prop-types';
 
-const Card = ({blog}) => {
+const Card = ({blog, handleselection}) => {
   const {cover_image ,price, course_name,course_details,credit}=blog
 
   return (
@@ -52,7 +52,10 @@ const Card = ({blog}) => {
 </div>
 
     <div className="card-actions justify-center w-full">
-      <button className="border-solid bg-sky-600 w-full rounded-md text-white">Select</button>
+      <button 
+      onClick={()=>handleselection(blog)}
+      
+      className="border-solid bg-sky-600 w-full rounded-md text-white">Select</button>
     </div>
   </div>
 
@@ -67,7 +70,8 @@ const Card = ({blog}) => {
 };
 
 Card.propTypes = {
-  blog:PropTypes.object.isRequired
+  blog:PropTypes.object.isRequired,
+  handleselection:PropTypes.func
 };
 
 export default Card;
