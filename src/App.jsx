@@ -7,6 +7,7 @@ import Sidebar from './COMPONENTS/Sidebar/Sidebar'
 import swal from 'sweetalert';
 import Swal from 'sweetalert2'
 
+
  
 
 function App() {
@@ -40,13 +41,25 @@ const isexist=Select.find(items=>items.id==item.id)
     Creditcount=Creditcount+credits.credit})
    
    let Remaining=15-Creditcount
-   if(Remaining<0 || Creditcount>20){
+   if(Remaining<0){
+  if( Creditcount>20  ){
+
+    return(
     Swal.fire({
       icon: 'error',
-      title: 'Oops...',
-      text: 'Sorry, you have used up all your available credits.!',
-      footer: '<a href="">Would you like to unlock the paid facilities?</a>'
-    })
+      title:'ERROR.....',
+      text: 'Sorry, you have used up all your available credit hours.!',
+      footer: '<a href=""> Buy more credit hours </a>'
+  }))
+      
+    
+
+
+  }else{
+    swal(" Oops... Your remaining credit hours have reached their limit.");
+    
+
+}
    }
    else {
     setremaing(Remaining)
