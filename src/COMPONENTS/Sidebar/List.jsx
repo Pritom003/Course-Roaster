@@ -5,7 +5,7 @@ const List = (items) => {
 
 const {course_name}=items.items
   return (
-    <li>{course_name}</li>
+    <li className=' bg-slate-200 m-4'>{course_name}</li>
   );
 };
 

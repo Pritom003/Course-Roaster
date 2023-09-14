@@ -17,9 +17,12 @@ fetch('Blogs.json')
   },[])
 
  const handleselection=(item)=> {
-
+const isexist=Select.find(items=>items.id==item.id)
   console.log(item.id ,Select,'hi')
-   if(Select.find(id=>id!==item.it)){
+   Select.forEach(items=>items.id)
+
+
+   if(isexist){
     return alert('the couse is already selected')
    }else{
   
@@ -51,7 +54,8 @@ fetch('Blogs.json')
 
    }
    </div>
-   <Sidebar select={Select}/>
+   
+   <Sidebar  select={Select}/>
   
 
    </div>

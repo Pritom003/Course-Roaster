@@ -7,14 +7,11 @@ const Sidebar = ({select}) => {
 // console.log(select)
 
   return (
-    <div className=" md:w-1/3 w-1/2">
-      <h2 className="text-4xl font-bold"> Course Name</h2>
+    <div className=" md:w-1/3 w-1/2 bg-slate-300 h-auto">
+      <h2 className="text-4xl font-bold m-2  underline mb-2"> Course Name</h2>
 
     
-      {/* {
-     select.map((items)=> <li>{items.course_name} </li> )
-
-     } */}
+     
       {
      select.map((items,id)=> <List key={id} items={items}></List> )
 
