@@ -38,9 +38,9 @@ const isexist=Select.find(items=>items.id==item.id)
   setselected([...Select, item]);
   Select.find(credits=>{
     Creditcount=Creditcount+credits.credit})
-    console.log(Creditcount,"hey")
+   
    let Remaining=15-Creditcount
-   if(Remaining<0){
+   if(Remaining<0 || Creditcount>20){
     Swal.fire({
       icon: 'error',
       title: 'Oops...',
