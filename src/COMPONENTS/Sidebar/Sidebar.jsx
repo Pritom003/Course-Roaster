@@ -11,8 +11,8 @@ const Sidebar = ({select,totlcount,Remainingtime}) => {
     <div className="card m-4 bg-base-100 shadow-xl">
   <div className="card-body">
 
-  <h3 className=' text-blue-600 mb-4 p-4 text-2xl lg:w-96 font-bold border-b-2 border-dotted border-zinc-500'>
-Credit Hour Remaining {Remainingtime} hr
+  <h3 className=' text-blue-600 mb-4 text-lg lg:w-60 font-bold border-b-2 border-dotted border-zinc-500'>
+Credit Hour Remaining :{Remainingtime} hr
 </h3>
 <h2 className="text-2xl font-bold  "> Course Name</h2>
 
