@@ -94,9 +94,13 @@ const isexist=Select.find(items=>items.id==item.id)
 
    }
    </div>
-   
+   <div>
+
    <Sidebar Remainingtime={Remainingtime} totlcount={totlcount} select={Select}/>
   
+   </div>
+   
+   
 
    </div>
 
