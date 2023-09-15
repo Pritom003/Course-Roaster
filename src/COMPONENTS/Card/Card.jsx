@@ -18,7 +18,7 @@ const Card = ({blog, handleselection}) => {
   <figure><img src={cover_image} alt="COVER PHOTO" /></figure>
   <div>
   <div className="card-body p-2">
-    <h2 className="font-semibold md:font-bold">{course_name}</h2>
+    <h2 className="font-semibold lg:h-10 md:font-bold">{course_name}</h2>
     <p className='md:h-24'>{course_details}</p>
 
     <div className=' md:flex sm:grid sm:grid-cols-1 '>
