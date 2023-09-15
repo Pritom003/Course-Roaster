@@ -5,7 +5,7 @@ const List = (items) => {
 
 const {course_name}=items.items
   return (
-    <li className=' mt-4 mb-4 m-4 list-decimal'>{course_name}</li>
+    <li className='m-1'>{course_name}</li>
   );
 };
 

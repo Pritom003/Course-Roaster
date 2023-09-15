@@ -41,7 +41,7 @@ const isexist=Select.find(items=>items.id==item.id)
     Creditcount=Creditcount+credits.credit})
    
    let Remaining=20-Creditcount
-   if(Remaining<0){
+   if(Remaining<=0){
   if( Creditcount>20  ){
 
     return(
@@ -84,8 +84,8 @@ const isexist=Select.find(items=>items.id==item.id)
     <>
   <h1 className='text-5xl font-bold flex justify-center align-middle items-center m-10'>Course Registration</h1>
 
-   <div className='flex justify-between'>
-   <div className='grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3'>
+   <div className='flex  justify-between'>
+   <div className='grid grid-cols-1  lg:w-2/3 sm:w-/2 md:grid-cols-2 lg:grid-cols-3'>
    {
      blogs.map((blog,id)=><Card key={id}
      handleselection={handleselection}
@@ -94,7 +94,7 @@ const isexist=Select.find(items=>items.id==item.id)
 
    }
    </div>
-   <div>
+   <div className='md:w-1/3 sm:w-1/2'>
 
    <Sidebar Remainingtime={Remainingtime} totlcount={totlcount} select={Select}/>
   
