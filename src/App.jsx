@@ -40,7 +40,7 @@ const isexist=Select.find(items=>items.id==item.id)
   Select.find(credits=>{
     Creditcount=Creditcount+credits.credit})
    
-   let Remaining=15-Creditcount
+   let Remaining=20-Creditcount
    if(Remaining<0){
   if( Creditcount>20  ){
 

@@ -3,81 +3,81 @@
     "id": "1",
     "serial_no": "1001",
     "cover_image": "https://i.ibb.co/VSdm5kZ/Rectangle-2.png",
-    "course_name": "Introduction to Programming",
+    "course_name": "Introduction to C Programming",
     "credit": 5,
     "price": 49.99,
-    "course_details": "Learn the fundamentals of programming with this comprehensive course."
+    "course_details": "Learn the fundamentals of C programming with this comprehensive course."
   },
   {
     "id": "2",
     "serial_no": "1002",
     "cover_image": "https://i.ibb.co/mbF4C4M/Rectangle-2-1.png",
-    "course_name": "Web Development Bootcamp",
+    "course_name": "Introduction to Algorithms",
     "credit": 5,
     "price": 99.99,
-    "course_details": "Become a web developer in just 12 weeks. Covers HTML, CSS, and JavaScript."
+    "course_details": "Explore the world of algorithms and problem-solving in this introductory course."
   },
   {
     "id": "3",
     "serial_no": "1003",
     "cover_image": "https://i.ibb.co/vv2tmpg/Rectangle-2-2.png",
-    "course_name": "Data Science Fundamentals",
+    "course_name": "Introduction to C++ for DSA",
     "credit": 9,
     "price": 79.99,
-    "course_details": "Discover the world of data science and machine learning in this introductory course."
+    "course_details": "Learn C++ programming with a focus on data structures and algorithms."
   },
   {
     "id": "4",
     "serial_no": "1004",
     "cover_image": "https://i.ibb.co/Tqdnz96/Rectangle-2-3.png",
-    "course_name": "Graphic Design Mastery",
+    "course_name": "Basic Data Structures",
     "credit": 8,
     "price": 69.99,
-    "course_details": "Master the art of graphic design and create stunning visuals."
+    "course_details": "Build a strong foundation in fundamental data structures."
   },
   {
     "id": "5",
     "serial_no": "1005",
     "cover_image": "https://i.ibb.co/FWDGM2J/Rectangle-2-4.png",
-    "course_name": "Business Ethics",
+    "course_name": "Introduction to OOP Python",
     "credit": 6,
     "price": 29.99,
-    "course_details": "Explore ethical issues in business and make responsible decisions."
+    "course_details": "Discover object-oriented programming with Python."
   },
   {
     "id": "6",
     "serial_no": "1006",
     "cover_image": "https://i.ibb.co/7N1g6wH/Rectangle-2-5.png",
-    "course_name": "Digital Marketing Strategies",
+    "course_name": "Software Engineering",
     "credit": 3,
     "price": 59.99,
-    "course_details": "Learn effective digital marketing strategies to boost your online presence."
+    "course_details": "Learn software engineering principles and best practices."
   },
   {
     "id": "7",
     "serial_no": "1007",
     "cover_image": "https://i.ibb.co/PYW3Bcm/Rectangle-2-6.png",
-    "course_name": "Advanced Physics",
+    "course_name": "AWS, Cloud Computing",
     "credit": 4,
     "price": 89.99,
-    "course_details": "Dive deep into advanced physics concepts and theories."
+    "course_details": "Master AWS and cloud computing technologies."
   },
   {
     "id": "8",
     "serial_no": "1008",
     "cover_image": "https://i.ibb.co/mvVQy2R/Rectangle-3.png",
-    "course_name": "Psychology of Happiness",
+    "course_name": "Database (MySQL)",
     "credit": 7,
     "price": 39.99,
-    "course_details": "Explore the science of happiness and well-being in this psychology course."
+    "course_details": "Learn MySQL and the principles of database management."
   },
   {
     "id": "9",
     "serial_no": "1009",
     "cover_image": "https://i.ibb.co/86DhK5D/Rectangle-3-1.png",
-    "course_name": "Creative Writing Workshop",
+    "course_name": "Problem-Solving Part",
     "credit": 2,
     "price": 49.99,
-    "course_details": "Unlock your creativity and improve your writing skills with this workshop."
+    "course_details": "Enhance your problem-solving skills with this workshop."
   }
 ]
