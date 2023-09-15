@@ -26,8 +26,8 @@ select.map((items,id)=> <List key={id} items={items}></List> )
 
 
 
-<h3 className='font-bold border-b-2 border-dotted border-zinc-500 m-4'>Total Credit Hour : {totlcount}hr</h3>
-<h3 className='font-bold border-b-2 border-dotted border-zinc-500  m-4'>Total Price :  </h3>
+<h3 className='font-semibold border-b-2 border-dotted border-zinc-500 '>Total Credit Hour : {totlcount}hr</h3>
+<h3 className='font-semibold border-b-2 border-dotted border-zinc-500  '>Total Price : 00.00 USD </h3>
 
 
 
